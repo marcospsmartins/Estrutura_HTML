@@ -44,7 +44,12 @@ section {
     gap: 1rem;
 }
 
-/* CONFIGURAÇÃO GERAL DOS TITULOS COMO H2 */
+/* CONFIGURAÇÃO GERAL DOS TITULOS COMO H1 e H2 */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
 h2 {
     color: #331f19;
     font-size: 1.5rem;
@@ -56,7 +61,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 /* CONFIGURAÇÃO GERAL INPUT TEXT */
-input[type="text"] {
+input[type="text"], input[type="password"], input[type="date"], input[type="email"] {
     width: 100%;
     padding: .4rem;
     border: 2px solid #ccd595;
@@ -67,5 +72,124 @@ input[type="text"] {
 
 /* CONFIGURAÇÃO DE UM PSEUDO-ELEMENTO PLACEHOLDER */
 ::placeholder {
-    color: blue;
+    color: #331f1968;
+}
+
+/* CONFIGURAÇÃO MENU SUSPENSO */
+select {
+    cursor: pointer;
+    background-color: #ccd595;
+    color: #331f19;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: .3rem;
+    text-align: center;
+}
+
+/* CONFIGURAÇÃO IMAGEM */
+img {
+    width: 5rem;
+}
+
+/* CONFIGURAÇÃO GERAL TABELA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* CONFIGURAÇÃO DO CABEÇALHO DA TABELA */
+th {
+    background-color: #331f19;
+    color: #ccd59565;
+    padding: .5rem;
+}
+
+/* CONFIGURAÇÃO CONTEUDO DENTRO DA TABELA */
+td {
+    color: #331f19;
+    padding: .3rem;
+    text-align: center;
+}
+
+/* CONFIGURAÇÃO DA PARTE INFERIOR DA TABELA */
+tfoot td {
+    background-color: #331f1961;
+}
+
+/* CONFIGURAÇÃO GERAL VERIFIQUE SUAS RESPOSTA */
+details {
+    background-color:  #ccd59549;
+    border-radius: 15px;
+    padding: .7rem;
+}
+
+/* CONFIGURAÇÃO EXIBIÇÃO DA SEÇÃO LISTA */
+summary {
+    color: #331f19;
+    margin: .3rem;
+    cursor: pointer;
+}
+
+/* CONFIGURAÇÃO EXIBIÇÃO RESPOSTAS AO ABRIR A LISTA */
+ol {
+    margin-left: 2rem;
+}
+
+/* CONFIGURAÇÃO EXIBIÇÃO RESPOSTAS AO ABRIR A LISTA */
+ol li {
+    padding: .2rem;
+}
+
+/* CONFIGURAÇÃO EXIBIÇÃO INFORMAÇÕES DE CONTATO */
+legend {
+    color: #331f19;
+    font-size: 1.1rem;
+    padding: .5rem;
+}
+
+/* CONFIGURAÇÃO GERAL FEEDBACK */
+fieldset {
+    border: 1px solid #331f19;
+    border-radius: 10px;
+    padding: 1rem;
+}
+/* CONFIGURAÇÃO DO TEXTAREA */
+textarea {
+    background-color:  #ccd59549;
+    border-radius: 10px;
+    border: 2px solid #ccd595;
+    resize: none;
+    outline: none;
+    padding: .5rem;
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: 7rem;
+}
+
+/* CONFIGURAÇÃO BOTÃO ENVIAR FEEDBACK */
+button {
+    background-color: #331f19;
+    color: #ccd595;
+    border: none;
+    padding: 1rem;
+    margin: .5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+/* CONFIGURAÇÃO GERAL RODAPÉ */
+footer {
+    background-color: #331f19;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* CONFIGURAÇÃO DO LINK DI RIDAPÉ */
+footer a {
+    text-decoration: none;
+    color: #ccd595;
 }
