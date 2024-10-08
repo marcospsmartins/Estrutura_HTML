@@ -1,0 +1,71 @@
+
+/* IMPORTANDO FONTS DO GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+/* RESETANDO AS CONFIGURAÇÕES GERAIS DO SITE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONFIGURAÇÕES GLOBAIS */
+body {
+    background-color: #fdf7f0;
+    color: #798252;
+    font-family: "Cabin", sans-serif;
+}
+
+/* CONFIGURAÇÃO DE CABEÇALHO */
+header {
+    padding: 2rem;
+    background-color: #331f19;
+    text-align: center;
+}
+
+/* CONFIGURAÇÃO "PARAGRAFO" DENTRO DO CABEÇALHO */
+header p {
+    padding-top: 1rem;
+}
+
+/* CONFIGURAÇÃO GERAL DA TAG MAIN, CORPO DO SITE */
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+/* CONFIGURAÇÃO GERAL DA TAG SECTION = SESSÕES DO SITE */
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* CONFIGURAÇÃO GERAL DOS TITULOS COMO H2 */
+h2 {
+    color: #331f19;
+    font-size: 1.5rem;
+}
+
+/* CONFIGURAÇÃO GERAL INPUT RADIO E CHECKBOX  */
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #ccd595;
+}
+
+/* CONFIGURAÇÃO GERAL INPUT TEXT */
+input[type="text"] {
+    width: 100%;
+    padding: .4rem;
+    border: 2px solid #ccd595;
+    border-radius: 10px;
+    outline: none;
+    background-color: #ccd5953c;
+}
+
+/* CONFIGURAÇÃO DE UM PSEUDO-ELEMENTO PLACEHOLDER */
+::placeholder {
+    color: blue;
+}

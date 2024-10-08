@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
     <title>Quiz para programadores</title>
 </head>
 <body>
@@ -19,7 +22,7 @@
             <p>Você poderá encontrar alguns acrônimos como <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web</p>
         </section> <!-- Introdução -->
 
-        <section> <!-- Pergunta 1: Multipla escolha -->
+        <section> <!-- Pergunta 1: Multipla escolha INPUT RADIO -->
             <h2>Pergunta 1: Qual linguagem é usada para estruturar páginas web?</h2>
             <form>
                 <input type="radio" value="Python" id="p1a" name="pergunta1">
@@ -33,28 +36,28 @@
             </form>
         </section> <!-- Pergunta 1: Multipla escolha -->
 
-        <section> <!-- Pergunta 2: texto -->
+        <section> <!-- Pergunta 2: texto INPUT TEXT -->
             <h2>Pergunta 2: Na URL https://WWW.google.com o trecho "google.com" é o _______ </h2>
             <form>
                 <input type="text" id="pergunta2" name="pergunta2" placeholder="Digite sua resposta ...">
             </form>
         </section> <!-- Pergunta 2: texto -->
 
-        <section> <!-- Pergunta 3: senha -->
+        <section> <!-- Pergunta 3: senha INPUT PASSWORD -->
             <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
             <form>
                 <input type="password" id="p3" name="pergunta3" placeholder="Digite sua senha">
             </form>
         </section> <!-- Pergunta 3: senha -->
 
-        <section> <!-- Pergunta 4: data -->
+        <section> <!-- Pergunta 4: data INPUT DATE -->
             <h2>Pergunta 4: Em que ano o HTML lançou sua primeira versão?</h2>
             <form>
                 <input type="date" id="p4" name="pergunta4">
             </form>
         </section> <!-- Pergunta 4: data -->
 
-        <section> <!-- Pergunta 5: seleção múltipla-->
+        <section> <!-- Pergunta 5: seleção múltipla INPUT CHECKBOX -->
             <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação?</h2>
             <form>
                 <input type="checkbox" id="p5a" name="pergunta5" value="JavaScript">
@@ -68,7 +71,7 @@
             </form>
         </section> <!-- Pergunta 5: seleção múltipla -->
 
-        <section> <!-- Pergunta 6: upload -->
+        <section> <!-- Pergunta 6: upload INPUT FILE-->
             <h2>Pergunta 6: Faça um upload de um arquivo contendo código HTML</h2>
             <form>
                 <input type="file" id="p6" name="pergunta6">
